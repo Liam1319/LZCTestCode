@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
   
   spec.name         = "LZCTestCode"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "一个建立pod仓库的简单demo."
 
    spec.description  = <<-DESC
@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
 
 
   
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "Classes", "LZCTestCode/LZCTestCode/Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   spec.requires_arc = true
